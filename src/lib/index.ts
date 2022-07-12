@@ -31,7 +31,6 @@ function useBlockPress({
     TIMEOUT =
       TOTAL_OF_CLICKS > 0 && TOTAL_OF_CLICKS <= maximumClicks + 1
         ? setTimeout(() => {
-            console.log("clear!");
             TOTAL_OF_CLICKS = 0;
           }, seconds)
         : null;
