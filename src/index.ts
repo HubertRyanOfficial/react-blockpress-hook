@@ -1,3 +1,3 @@
-import { useBlockButton } from "./lib";
+import { useBlockPress } from "./lib";
 
-export default useBlockButton;
+export default useBlockPress;

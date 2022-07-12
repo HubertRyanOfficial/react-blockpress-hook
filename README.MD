@@ -37,7 +37,10 @@ One of the examples is avoid bad users make a lot of queries trying to bug the a
 import useBlockPress from "react-blockpress-hook";
 
 const UseBlockButton = () => {
-  const blockButtonClick = useBlockButton(onClick, blockButtonListener);
+  const blockButtonClick = useBlockPress({
+    onPress: onClick,
+    onBlockButton: blockButtonListener,
+  });
 
   function onClick() {
     console.log('Hello');
@@ -72,7 +75,12 @@ In this example I'm not specifying how long the user will be blocked after tryin
 
 //
 
-const blockButtonClick = useBlockButton(onClick, blockButtonListener, 10, 5000);
+const blockButtonClick = useBlockButton({
+    onPress: onClick,
+    onBlockButton: blockButtonListener,
+    maximumClicks: 10,
+    seconds: 5000
+  });
 
 ```
 

@@ -5,7 +5,7 @@ interface Props {
   seconds: number;
 }
 
-function useBlockButton({
+function useBlockPress({
   onPress = () => null,
   onBlockButton = () => null,
   maximumClicks = 10,
@@ -40,4 +40,4 @@ function useBlockButton({
   return handleButtonPress;
 }
 
-export { useBlockButton };
+export { useBlockPress };
