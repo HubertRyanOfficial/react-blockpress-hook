@@ -23,7 +23,7 @@ $ npm install react-blockpress-hook --save
 
 ## Quick Start
 
-**useLastCall** library was created to avoid a lot a clicks by bad users and take action on that user by identifying multiple clicks on a certain functionality.
+**useBlockPress** library was created to avoid a lot a clicks by bad users and take action on that user by identifying multiple clicks on a certain functionality.
 
 As we use react's own hooks, we recommend using the react version from **16.8** onwards, thus making it possible to use the useEffect and useState hooks.
 
