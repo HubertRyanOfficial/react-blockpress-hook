@@ -91,14 +91,11 @@ Below we have a spreadsheet that will help us a little more as we define these p
 | maximumClicks | function | Maximum clicks that we will define what is already a scam                                                                           | 10      |
 | seconds       | function | How long in milliseconds (ms) the user will be blocked after reaching the click limit in **maximumClicks**.                         | 5000    |
 
-I hope I helped at least a little you developers.
-
 ## You got it! 👍😁
 
-If you want to use it with architectures using **Contexts**, it's very useful too. Remembering that this is so we can store the last time the function was called and so we can see the time difference for the execution to go live.
-
+I hope I helped at least a little you developers.
 Thank you very much, I hope I have helped the great React community. ❤🙌
 
 <p align="center">
-  <img src="https://imgur.com/nIAoYGc.png" width="300" title="Whatsapp">
+  <img src="https://imgur.com/nIAoYGc.png" width="300" title="Tapedin">
 </p>
