@@ -1,0 +1,36 @@
+{
+  "name": "react-blockpress-hook",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc --build",
+    "clean": "npx tsc --build --clean",
+    "tsc": "tsc -p tsconfig.json",
+    "dev": "yarn build && node -e require('./src/test.js')"
+  },
+  "author": "Hubert Ryan (hubertryanofficial@gmail.com)",
+  "private": false,
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "keywords": [
+    "button",
+    "react-hook",
+    "react",
+    "touchable",
+    "blockpress",
+    "onpress"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
